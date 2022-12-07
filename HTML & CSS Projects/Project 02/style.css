@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    font-family: 'Poppins';
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: black;
+
+}
+
+.grow-list{
+    width: 1000px;
+}
+.list {
+    justify-content: space-between;
+    color: white;
+
+}
+
+.list-item {
+    margin-left: 90px;
+}
+
+.logo {
+    list-style: none;
+    width: 110px;
+    height: 45px;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.button-small {
+    margin-left: 30px;
+    background-color: purple;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+}
+
+.hero {
+    background-image: url("./assets/bg.png");
+    background-attachment: fixed;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+
+.hero-heading {
+    position: absolute;
+    width: 800px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    color: white;
+    font-size: 70px;
+}
+
+.hero-description {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 520px;
+    color: white;
+    font-size: 30px;
+}
+
+.button-large {
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 700px;
+    background-color: purple;
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    height: 50px;
+    width: 350px;
+}
+
+.line
+{
+    border-left: 1px solid white;
+    height: 50px;
+}
