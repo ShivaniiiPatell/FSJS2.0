@@ -1,0 +1,178 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    overflow: hidden;
+  }
+  .container{
+      overflow: hidden;
+      margin-left: 200px;
+      width: 1200px;
+  }
+  nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul{
+      display: flex;
+      margin-left: 150px;
+  }
+  nav ul li{
+      list-style: none;
+      margin-left: 50px;
+  }
+  nav .button-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+  }
+  nav button{
+      padding: 10px 20px;
+      border-radius: 10px;
+      width: 130px;
+      margin-left: 20px;
+      background-color: white;
+  }
+  
+  .hero-container{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .square{
+    margin-top: 250px;
+    margin-left: 160px;
+    
+  }
+  
+  /* .hero-container:nth-child(5) {
+    position: absolute;
+    margin-left: 20px;
+    border-color: yellow;
+  } */
+  .hero-container > :nth-child(1) >:first-child{
+    height: 300px;
+  }
+  
+  .hero-container > :nth-child(2){
+    height: 20px;
+    margin-left: 580px;
+    margin-top: 490px;
+    position: absolute;
+    
+  }
+  .hero-container > :nth-child(2) > :first-child{
+    height: 40px;
+  }
+  
+  .hero-container > :nth-child(3){
+    height: 20px;
+    margin-left: 1125px;
+    margin-top: 30px;
+    position: absolute;
+    
+  }
+  .hero-container > :nth-child(3) img{
+    height: 50px;
+  }
+  
+  .hero-container > :nth-child(4){
+    height: 20px;
+    margin-left: 600px;
+    margin-top: -50px;
+    position: absolute;
+    
+  }
+  .hero-container > :nth-child(4) img{
+    height: 50px;
+  }
+  
+  .hero-container >:nth-child(5){
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .hero-container > :nth-child(5) img{
+    height: 500px;
+  }
+  /* .hero-container-right{
+    
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 800px;
+    width: 600px;
+    
+  } */
+  
+  .hero-container-right{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 80px;
+    
+  }
+  
+  .hero-heading{
+    font-size: 70px;
+    margin-left: 20px;
+    width: 900px;
+  }
+  
+  .hero-description{
+    width: 550px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 80px;
+  }
+    /* .hero-container-right :last-child{
+        margin-top: 80px;
+        background-color: olive;
+        height: 50px;
+      } */
+  
+      .button-email
+      {
+        width: 180px;
+        height: 30px;
+        background-color: white;
+        border-radius: 10px;
+        margin-top: 100px;
+        margin-left: 210px;
+      }
+      .button-join{
+        width: 140px;
+        height: 30px;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        margin-left: 10px;
+      }
+    
+      .contact-heading{
+        margin-left: 340px;
+        margin-top: 70px;
+        font-size: 20px;
+      }
+      .icons{
+        margin-top: 10px;
+        margin-left: 260px;
+      }
+      .icons span{
+        margin-left: 10px;
+      }
+    /* .bdiv{
+      margin-top: 80px;
+      margin-left: 250px;
+    }
+     */
+   
