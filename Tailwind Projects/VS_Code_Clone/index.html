@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>VS-Code Clone</title>
+</head>
+<body class="m-0 p-0 border-box">
+    <nav class="flex items-center bg-[#2c2c32] h-[50px] sticky top-0 z-50">
+        <div class="flex items-center justify-center ml-[160px]">
+            <img src="./images/vsIcon.png" class="h-6 w-6">
+            <span class="font-['Segoe UI'] text-white text-[20px] ml-[10px]">Visual Studio Code</span>
+        </div>
+        <ul class="flex items-center justify-center text-[16px] ml-[15px]">
+            <li class="text-[#9d9d9d] ml-[16px] hover:text-white">Docs</li>
+            <li class="text-[#9d9d9d] ml-[16px] hover:text-white">Updates</li>
+            <li class="text-[#9d9d9d] ml-[16px] hover:text-white">Blog</li>
+            <li class="text-[#9d9d9d] ml-[16px] hover:text-white">API</li>
+            <li class="text-[#9d9d9d] ml-[16px] hover:text-white">Extension</li>
+            <li class="text-[#9d9d9d] ml-[16px] hover:text-white">FAQ</li>
+            <li class="text-[#9d9d9d] ml-[16px] hover:text-white">Learn</li>
+        </ul>
+        <div  class="flex items-center justify-center ml-[200px] bg-[#3d3d42] h-[50px] w-[200px] hover:bg-[#757474]">
+            <img src="./images/search.svg" class="w-[16px] h-[16px] ml-[10px]">
+            <input placeholder="Search Docs" class="bg-[#3d3d42] ml-[10px] w-[150px] h-[50px] placeholder:text-[#fff] border-none outline-none hover:bg-[#757474]" >
+        </div>
+        <div  class="flex items-center bg-[#0066b8] h-[50px] w-[170px] text-[#fff] hover:bg-[#005ba4]">
+            <img src="./images/download.svg" class="w-[16px] h-[16px] ml-[10px]">
+            <span class="ml-[10px]">Download</span>
+        </div>
+    </nav>
+    <main>
+        <div class="bg-[#25252b] text-[Red] h-[45px]">
+            <p class="text-center px-[12%] py-2">
+                For Study Purpose Only
+            </p>
+        </div>
+        <div class="bg-[#25252b] text-[#ccc] h-[45px]">
+            <p class="text-center px-[12%] py-2">
+                <a class="text-[#0098ff]">Version 1.73</a>
+                is now available! Read about the new features and fixes from October.
+            </p>
+        </div>
+        <div class="bg-[#2c2c32] flex items-center justify-center">
+            <div class="w-[1170px] h-[650px] flex justify-center">
+                <div class="w-[33%] text-center mt-[5%] mr-[50px]">
+                    <h1 class="text-[48px] font-light text-[#fff] mt-[10px]">Code editing.</h1>
+                    <h1 class="text-[48px] font-light text-[#fff]"><strong>Redefined.</strong></h1>
+                    <p class="text-1.8rem text-[rgba(255,255,255,.6)] font-light mt-2">Free.Built on open source. Runs everywhere.</p>
+                    <div class="flex">           
+                        <button class="text-[#fff] bg-[#0066b8] mt-4 w-[232px] h-[62px] ml-[60px] hover:bg-[#005ba4]">Download for Windows <br>
+                            <small class="text-[rgba(255,255,255,.9)] font-light">Stable Build</small>
+                        </button>
+                        <button class="bg-[#0066b8] ml-[3px] mt-4 w-[50px] h-[62px] hover:bg-[#005ba4]" > <img class="w-4 h-4 text-center ml-[15px]" src="./images/chevronDown.svg" alt=""></button>
+                    </div>
+                    <div class="bg-[#25252b] rounded-lg w-[277px] h-[36px] mt-[20px] ml-[60px]">
+                        <p class="text-[rgba(255,255,255,.6)]  text-[13px] p-2">
+                            <a class="text-[#0098ff] mt-[20px] hover:underline">Web</a>,
+                            <a class="text-[#0098ff] hover:underline">Insiders edition</a>, or
+                            <a class="text-[#0098ff] hover:underline">other platforms</a>
+                        </p>
+                    </div>
+                    <p class="text-[rgba(255,255,255,.6)] text-sm mt-[10px]">By using VS Code, you agree to its</p>
+                    <p class="text-[#0098ff] text-xs hover:underline">license and privacy statement</p>
+                </div>
+                <div class="w-[60%] mt-[3%] ">
+                    <img class="h-[550px] w-[900px]" src="./images/VSPage.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="bx-[#fff] h-[129px]">
+            <div class="w-[1170px] flex items-center justify-center ml-[200px]">
+                <div class="w-[25%] h-[129px] flex items-center justify-center hover:bg-[#e3e3e3] hover:text-[#000]"><a class="text-[20px]"><div class="bg-[url('./images/valueprops-top-sprite.svg')] bg-no-repeat w-[50px] h-[50px] ml-[25px] hover:bg-[position:0_100%]"></div>IntelliSense</a></div>
+                <div class="w-[25%] h-[129px] flex items-center justify-center hover:bg-[#e3e3e3] hover:text-[#000]"><a class="text-[20px]"><div class="bg-[url('./images/valueprops-top-sprite.svg')] bg-no-repeat w-[53px] h-[52px] bg-[position:-3.2rem_0%] ml-[25px] hover:bg-[position:-3.2rem_100%]"></div>Run and Debug</a></div>
+                <div class="w-[25%] h-[129px] flex items-center justify-center hover:bg-[#e3e3e3] hover:text-[#000]"><a class="text-[20px]"><div class="bg-[url('./images/valueprops-top-sprite.svg')] bg-no-repeat w-[53px] h-[51px] bg-[position:-6.4rem_0%] ml-[25px] hover:bg-[position:-6.4rem_100%]"></div>Built-in Git</a></div>
+                <div class="w-[25%] h-[129px] flex items-center justify-center hover:bg-[#e3e3e3] hover:text-[#000]"><a class="text-[20px]"><div class="bg-[url('./images/valueprops-top-sprite.svg')] bg-no-repeat w-[53px] h-[50px] bg-[position:-9.5rem_0%] ml-[25px]"></div>Extensions</a></div>
+            </div>
+        </div>
+        <div class="w-[1520px] h-[400px] bg-[#f5f5f5]">
+            <div class="w-[1520px] h-[350px] mt-[100px] absolute">
+                <div class="w-[1120px] flex items-center justify-center ml-[200px]">
+                    <div class="w-373px h-[120px] flex justify-center ml-[50px]">
+                        <div>
+                            <a>
+                                <img src="./images/Una.jpg" class="rounded-full w-[70px] h-[70px]">
+                            </a>
+                        </div>
+                        <div class="ml-[10px]">   
+                            <a>
+                                <strong>Una Kravets</strong>
+                                <span class="text-xs">@Una</span>
+                            </a>
+                            <div class="absolute top-0 right-0">
+                                <img src="./images/twitter.svg" class="w-3 h-3">
+                            </div>
+                            <div class="w-[260px] h-[144px] font-light">
+                                VS @code does so many things right. I’m constantly impressed by the UX, and customizing workspace / user preferences is no exception. 🙌🏼💯 It just keeps getting better ❤️
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="w-373px  h-[120px] flex justify-center ml-[50px]">
+                        <div>
+                            <a>
+                                <img src="./images/jadbox.jpg" class="rounded-full w-[70px] h-[70px]">
+                            </a>
+                        </div>
+                        <div class="ml-[10px]">   
+                            <a>
+                                <strong>Jonathan Dunlap </strong>
+                                <span class="text-xs">@jadbox</span>
+                            </a>
+                            <div class="w-[260px] h-[144px] font-light">
+                                VS Code will have deep remote development. You can connect to a container running a different OS and use any VS Code plugins, linting, debugging for that environment. 🔥🔥🔥
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                    <div class="w-373px  h-[120px] flex justify-center ml-[50px]">
+                        <div>
+                            <a>
+                                <img src="./images/PKodmad.jpg" class="rounded-full w-[70px] h-[70px]">
+                            </a>
+                        </div>
+                        <div class="ml-[10px]">   
+                            <a>
+                                <strong>Pavithra Kodmad </strong>
+                                <span class="text-xs">@PKodmad</span>
+                            </a>
+                            <div class="w-[260px] h-[144px] font-light">
+                                VS Code is my most used and favorite editor. I love being able to customize the editor - changing the layout, the icons, fonts and color scheme is so easy!
+                            </div>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="w-[1520px] h-[300px]">
+            <div class="w-[1170px] h-[263px] flex  ml-[200px] mt-[50px]">
+                <div class="mt-[45px]">
+                    <img src="./images/home-intellisense.svg">
+                </div>
+                <div class="w-[660px] h-[150px] ml-[120px] mt-[20px]">
+                    <h1 class="font-light text-[30px] mt-[15px]"> Meet IntelliSense.</h1>
+                    <p class="text-xl leading-10 font-normal text-[#444] mt-[30px]">Go beyond syntax highlighting and autocomplete with IntelliSense, which provides smart completions based on variable types, function definitions, and imported modules.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-[1520px] h-[350px] bg-[#f5f5f5]">
+            <div class="w-[1170px] h-[263px] flex  ml-[200px] mt-[50px]">
+                <div class="w-[660px] h-[150px] mt-[50px]">
+                    <h1 class="font-light text-[30px] mt-[20px]">Print statement debugging is a thing of the past.</h1>
+                    <p class="text-xl leading-9 font-normal text-[#444] mt-[30px]">Debug code right from the editor. Launch or attach to your running apps and debug with break points, call stacks, and an interactive console.</p>
+                </div>
+                <div class="mt-[70px] ml-[100px]">
+                    <img src="./images/home-debug.svg">
+                </div>
+            </div>
+        </div>
+        <div class="w-[1520px] h-[300px]">
+            <div class="w-[1170px] h-[263px] flex ml-[200px] mt-[50px]">
+                <div class="mt-[45px]">
+                    <img src="./images/home-git.svg">
+                </div>
+                <div class="w-[660px] h-[150px] ml-[120px] mt-[20px]">
+                    <h1 class="font-light text-[30px] mt-[15px]"> Git commands built-in.</h1>
+                    <p class="text-xl leading-10 font-normal text-[#444] mt-[30px]">Working with Git and other SCM providers has never been easier. Review diffs, stage files, and make commits right from the editor. Push and pull from any hosted SCM service.</p>
+                </div>
+            </div>
+        </div>
+        <div class="w-[1520px] h-[350px] bg-[#f5f5f5]">
+            <div class="w-[1170px] h-[263px] flex  ml-[200px] mt-[50px]">
+                <div class="w-[660px] h-[150px] mt-[50px]">
+                    <h1 class="font-light text-[30px] mt-[20px]">Extensible and customizable.</h1>
+                        <p class="text-xl leading-9 font-normal text-[#444] mt-[30px]">Want even more features? Install extensions to add new languages, themes, debuggers, and to connect to additional services. Extensions run in separate processes, ensuring they won't slow down your editor. <a class="text-[#0071bc] hover:underline">Learn more about extensions.</a></p>
+                </div>
+                <div class="mt-[70px] ml-[100px]">
+                    <img src="./images/Hundreds-of-Extensions.png" class="w-[350px] hover:scale-105 hover:duration-75">
+                </div>
+            </div>
+        </div>
+        <div class="w-[1520px] h-[300px]">
+            <div class="w-[1170px] h-[263px] flex  ml-[200px] mt-[50px]">
+                <div class="mt-[45px]">
+                    <img src="./images/home-azure.svg">
+                </div>
+                <div class="w-[660px] h-[150px] ml-[120px] mt-[20px]">
+                    <h1 class="font-light text-[30px] mt-[15px]">Deploy with confidence and ease</h1>
+                    <p class="text-xl leading-10 font-normal text-[#444] mt-[30px]">With <a class="text-[#0071bc] hover:underline">Microsoft Azure</a> you can deploy and host your React, Angular, Vue, Node, Python (and more!) sites, store and query relational and document based data, and scale with serverless computing, all with ease, <a class="text-[#0071bc] hover:underline">all from within VS Code.</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="w-[1520px] h-[477px] bg-[#f5f5f5]">
+            <div class="w-[1170px] h-[357px] ml-[250px] mt-[100px]">
+                <div class="w-[1200px] h-[88px]">
+                    <h2 class="ml-[450px] mt-[60px] font-light text-[30px] h-[33px] position: absolute">VS Code for</h2>
+                </div>
+                <div class="w-[950px] h-[100px] flex flex-wrap text-[18px] mt-[40px] ml-[60px]">
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/javascript.svg">
+                        <p>
+                            Javascript
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/python.svg">
+                        <p>
+                            Python
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/java.svg">
+                        <p>
+                            Java
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/markdown.svg">
+                        <p>
+                            Markdown
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/typescript.svg">
+                        <p>
+                            Typescript
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/cpp.svg">
+                        <p>
+                            C/C++
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/json.svg">
+                        <p>
+                            JSON
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/powershell.svg">
+                        <p>
+                            Powershell
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/html.svg">
+                        <p>
+                            HTML/CSS
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/csharp.svg">
+                        <p>
+                            C#
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/php.svg">
+                        <p>
+                            PHP
+                        </p>
+                    </div>
+                    <div class="w-[158px] h-[50px] flex items-center justify-left">
+                        <img class="w-[30px] h-[30px]" src="./images/yaml.svg">
+                        <p>
+                            YAML
+                        </p>
+                    </div>
+                </div>
+                <div class=" mt-[20px]">
+                    <p class="text-[#0071bc] ml-[300px]">
+                        <a class="text-[18px]  hover:underline">
+                            and many more languages on the Marketplace...
+                        </a>
+                    </p>
+                </div>
+                <div class="w-[1170p] h-[98px]">
+                    <button class="bg-[#0066b8] w-[220px] h-[60px] text-[#fff] text-[20px] font-semibold ml-[420px] mt-[50px] hover:bg-[#005ba4]">
+                        Get Started Now
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="w-[1520px] h-[423px] flex items-center justify-center">
+            <div class="w-[290px] flex items-center flex-col">
+                <img src="./images/windows-logo.png" class="w-[100px] h-[100px]">
+                <button class="w-[240px] h-[70px] bg-[#0066b8] text-[#fff] font-semibold mt-[20px] hover:bg-[#005ba4]">
+                    <img src="./images/download.svg" class="w-[18px] h-[18px] inline-block">  Windows
+                    <br>
+                    <span class="text-[rgba(255,255,255,.9)] text-[10] block text-xs">Windows 8, 10, 11</span>
+                </button>
+                <table class="mt-[30px]">
+                    <tbody class="text-center">
+                        <tr>
+                            <td class="text-[15px] font-semibold pr-4">
+                                    User Installer
+                            </td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x64</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x86</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-[16px] font-semibold pr-4">
+                                System Installer
+                            </td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x64</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x86</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-[16px] font-semibold pr-4">
+                                   .zip
+                            </td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x64</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x86</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm64</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="w-[290px] flex items-center flex-col mt-50px ml-[50px]">
+                <img src="./images/linux-logo.png" class="w-[90px] h-[100px] mt-[25px]">
+                <div class="flex flex-row">
+                    <button class="w-[145px] h-[70px] bg-[#0066b8] text-[#fff] font-semibold mt-[20px] hover:bg-[#005ba4]">
+                        <img src="./images/download.svg" class="w-[18px] h-[18px] inline-block "> .deb
+                        <br>
+                        <span class="text-[rgba(255,255,255,.9)] text-[10] block text-xs">Devian, Ubuntu</span>
+                    </button>
+                    <button class="w-[145px] h-[70px] bg-[#0066b8] text-[#fff] font-semibold mt-[20px] ml-[5px] hover:bg-[#005ba4]">
+                        <img src="./images/download.svg" class="w-[18px] h-[18px] inline-block "> .rpm
+                        <br>
+                        <span class="text-[rgba(255,255,255,.9)] text-[10] block text-xs">Red hat, Fedora, SUSE</span>
+                    </button>
+                </div>
+                <table class="mt-[30px]">
+                    <tbody class="text-center">
+                        <tr>
+                            <td class="text-[16px] font-semibold pr-4">
+                                  .deb
+                            </td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x64</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm32</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-[16px] font-semibold pr-4">
+                                .rpm
+                            </td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x64</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm32</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-[16px] font-semibold pr-4">
+                                  .tar.gz
+                            </td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">x64</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm32</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Arm64</a></td>
+                        </tr>
+                        <tr>
+                            <td class="text-[16px] font-semibold pr-4">
+                                  Snap
+                            </td>
+                            <td colspan="2"><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Snap Store</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="w-[290px] flex items-center flex-col mt-[-50px] ml-[50px]">
+                <img src="./images/apple-logo.svg" class="w-[100px] h-[100px]">
+                <button class="w-[240px] h-[70px] bg-[#0066b8] text-[#fff] font-semibold mt-[20px] hover:bg-[#005ba4]">
+                    <img src="./images/download.svg" class="w-[18px] h-[18px] inline-block">  Windows
+                    <br>
+                    <span class="text-[rgba(255,255,255,.9)] text-[10] block text-xs">Windows 8, 10, 11</span>
+                </button>
+                <table class="mt-[30px]">
+                    <tbody class="text-center">
+                        <tr>
+                            <td class="text-[15px] font-semibold pr-4">
+                                    .zip
+                            </td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Universal</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Intel chip</a></td>
+                            <td><a class="p-0.5 bg-[#0066b8] text-[#fff] rounded-sm text-xs hover:bg-[#005ba4] hover:text-[#fff]">Apple silicon</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="w-[1520px] h-[390px] bg-[#f5f5f5]">
+            <div class="w-[1170px] h-[161px] flex items-center ml-[250px] mt-[50px]">
+                <div class="w-[40%] text-center text-[#444]">
+                    <h2 class="font-semibold text-xl">Want new features sooner?</h2>
+                    <p class="text-[18px] mt-[10px]">Get the <a class="text-[#0071bc] hover:underline">Insiders build</a> instead.</p>
+                </div>
+                <div class="w-[40%] text-center ml-[130px]">
+                    <h2 class="font-semibold text-xl">Use <a class="text-[#0071bc] hover:underline">vscode.dev</a> for quick edits</h2>
+                    <h2 class="font-semibold text-xl"> online!</h2>
+                    <p class="text-[18px] mt-[10px]">GitHub, Azure Repos, and local files.instead.</p>
+                </div>
+            </div>
+            <div class="w-[50%] text-[#6c6c6c] text-center mt-[50px] ml-[400px]">   
+                <h2>LICENSE AND PRIVACY TERMS</h2>
+                <p class="block text-[15px] mt-[10px] leading-10">
+                    By downloading and using Visual Studio Code, you agree to the <a class="text-[#0071bc] hover:underline">license terms</a> and <a class="text-[#0071bc] hover:underline">privacy statement</a>. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see <a class="text-[#0071bc] hover:underline ">How to Disable Crash Reporting</a> to learn how to disable it.
+                </p>
+            </div>
+        </div> 
+        <div class="bg-[#333] h-[100px]">
+            <div class="text-[#fff] ml-[200px] mt-[30px] flex items-center">
+                <ul class="flex items-center justify-arround mt-[30px] text-[15px]">
+                    <li>Hello from Seattle.</li>
+                    <li class="ml-[20px] hover:text-[#b4a0ff]">Follow @code</li>
+                    <li class="flex text-black ml-[20px] text-xs"><a class=" bg-[#fff]  rounded w-[60px] text-center"><img src="./images/Github logo (1).png" class="w-3 h-3 inline-block"> Star</a></li>
+                    <li class="flex text-black ml-[5px]  text-xs"><a class=" bg-[#fff]  rounded w-[60px] text-center">139,758</a></li>
+                </ul>
+                <ul class="flex items-center justify-arround mt-[30px] text-[12px] ml-[400px]">
+                    <li class=" hover:text-[#b4a0ff]">Support</li>
+                    <li class="ml-[20px] hover:text-[#b4a0ff]">Privacy</li>
+                    <li class="ml-[20px] hover:text-[#b4a0ff]">Terms of Use</li>  
+                    <li class="ml-[20px] hover:text-[#b4a0ff]">License</li>  
+                </ul>
+                <div class="flex ml-[20px] text-xs mt-[40px] text-[#fff]">
+                    <a class="rounded w-[100px] text-center hover:text-[#fff]"><img src="./images/microsoft-logo.png" class="w-24 h-5 ">© 2022 Microsoft</a>
+                </div>
+            </div>
+        </div>
+    </main> 
+</body>
+</html>
+
