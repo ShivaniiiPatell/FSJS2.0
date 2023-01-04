@@ -1,0 +1,380 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.maincontainer {
+    width: 80%;
+    margin: auto;
+    background-color: #151515;
+}
+
+.insideContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.navbar-container ul li {
+    display: inline-block
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: #cecece;
+    font-size: 15px;
+}
+
+.grow-list {
+    margin-left: 30px;
+}
+
+.list-item {
+    margin-left: 40px;
+}
+
+.nav-button {
+    background-color: #151515;
+    border: none;
+    text-align: center;
+    color: #fff;
+    margin-left: 300px;
+}
+
+.nav-button span {
+    margin-left: -20px;
+    position: absolute;
+    color: #cecece;
+    font-size: 15px;
+    margin-top: 3px;
+}
+
+.section1 {
+    overflow: hidden;
+    margin-left: 10%;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.sectionCard1 {
+    margin-left: 300px;
+    margin-top: -60px;
+    width: 800px;
+}
+
+.sectionCard2 {
+    position: relative;
+    margin-top: -550px;
+    margin-left: 500px;
+    width: 800px;
+}
+
+
+.section1-div1 {
+    position: absolute;
+    margin-top: -650px;
+}
+
+.section1-div1>h1 {
+    font-size: 68px;
+    width: 750px;
+    color: #ffffff;
+    font-weight: lighter;
+    margin-top: 100px;
+}
+
+.spancol {
+    color: #f637ec;
+}
+
+.section1-div1>p {
+    margin-top: 30px;
+    color: #a6a6a6;
+    width: 400px;
+    font-size: 20px;
+}
+
+.section1button {
+    background-color: #151515;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: none;
+    color: #fff;
+    margin-top: 100px;
+}
+
+.section1button-img1 {
+    width: 90px;
+    height: 30px;
+
+}
+
+.section1button>span {
+    position: absolute;
+    color: #cecece;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.section1button-img2 {
+    margin-left: 100px;
+}
+
+.section1-div2 {
+    display: flex;
+    color: #ffffff;
+    margin-top: 80px;
+}
+
+.formatdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.plus {
+    font-size: 30px;
+    font-weight: bolder;
+    fill: #f637ec;
+    margin-left: 5px;
+}
+
+.innertxt {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.section2 {
+    background-color: #292929;
+}
+
+.section2 img {
+    width: 100px;
+}
+
+.section2-div1 {
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section3Uper {
+    display: flex;
+    align-items: center;
+}
+
+.section3UperLeft {
+    width: 60%;
+    margin-top: 80px;
+}
+
+.section3UperLeft h1 {
+    font-size: 60px;
+    color: #fcfcfc;
+
+}
+
+.section3UperRight p {
+    font-size: 20px;
+    color: #a4a4a4;
+    width: 350px;
+    margin-top: 40px;
+}
+
+.section3UperRight {
+    width: 40%;
+}
+
+.section3Lower {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+
+.section3Lower img {
+    height: 120px;
+    margin-top: 30px;
+}
+
+.section3Lower h2 {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.section3Lower div:nth-child(2) {
+    position: relative;
+    margin-top: -60px;
+    background-color: #565554;
+}
+
+.section3Lower div:nth-child(2) h2:nth-child(2) {
+    margin-top: 10px;
+}
+
+.section3Lower div:nth-child(2) h2:nth-child(3) {
+    margin-top: -40px;
+    margin-bottom: 35px;
+}
+
+.section3LowerCard {
+    background-color: #272727;
+    width: 30%;
+    border: 2px solid #919191;
+    text-align: center;
+}
+
+.section4 {
+    background-color: #fceffb;
+    text-align: center;
+
+}
+
+.section4 h1 {
+    margin: auto;
+    padding-top: 100px;
+    font-size: 60px;
+    width: 700px;
+}
+
+.section4 p {
+    width: 600px;
+    font-size: 20px;
+    color: #686468;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.section4 img {
+    width: 80%;
+}
+
+.section5 h1:first-child {
+    font-size: 50px;
+    text-align: center;
+    width: 650px;
+    margin: auto;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+.section5-div1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section5>.insideContainer>p {
+    color: #bebebe;
+    width: 450px;
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+.section5Card {
+    width: 40%;
+    background-color: #1e1f24;
+    padding: 22px 22px;
+    border: 2px solid #f8f7f7;
+    color: #dddddd;
+    font-weight: lighter;
+}
+
+.section5Card p:not(:last-child) {
+    margin-top: 15px;
+}
+
+.section5Card p:nth-child(3) {
+    font-size: 18px;
+}
+
+.mdiv {
+    margin-top: 50px;
+    padding-bottom: 200px;
+}
+
+.section5CardDiv1 {
+    background-color: #545252;
+}
+
+.section6 {
+    background-color: #151515;
+}
+
+#img1 {
+    position: absolute;
+    width: 80%;
+    background-color: #151515;
+}
+
+#img2 {
+    position: absolute;
+    width: 80%;
+}
+
+#img3 {
+    position: absolute;
+    height: 400px;
+}
+
+#img4 {
+    position: absolute;
+    margin-left: 65%;
+    height: 400px;
+    margin-top: 30px;
+}
+
+.section6 h1 {
+    position: absolute;
+    font-size: 60px;
+    text-align: center;
+    width: 700px;
+    margin-top: 100px;
+    margin-left: 250px;
+    color: #ffffff;
+}
+
+.section6Button {
+    position: absolute;
+    background-color: #ab4ca6;
+    display: flex;
+    align-items: center;
+    border: none;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 500px;
+
+}
+
+.section6Button span {
+    position: absolute;
+    color: #cecece;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.section7 {
+    position: absolute;
+    background-color: #151515;
+    width: 80%;
+    margin-top: 462px;
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
+
+.section7 img {
+    margin-left: 100px;
+}
