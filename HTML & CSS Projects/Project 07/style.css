@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+
+}
+
+/* 
+.mainContainer {
+    
+    margin: auto;
+    
+} */
+
+.insideContainer {
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.section1 {
+    background: linear-gradient(rgba(12, 4, 4, 0.75), rgba(16, 7, 7, 0.75)), url("./Assets/Photos/futuristic-bg.png");
+    background-size: cover;
+    color: #c7c5c5;
+    padding-bottom: 120px;
+}
+
+.navbar-container ul li {
+    display: inline-block;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-size: 15px;
+}
+
+.grow-list {
+    margin-left: 30px;
+}
+
+.list-item {
+    margin-left: 40px;
+}
+
+.nav-button {
+    background-color: #f4694c;
+    border: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.button-group {
+    margin-left: 465px;
+}
+
+.button-group button:first-child {
+    background-color: #040000;
+}
+
+.section1-div {
+    margin-top: 120px;
+}
+
+.section1-div h1 {
+    color: #ffffff;
+    font-size: 60px;
+    width: 580px;
+}
+
+.section1-div p {
+    color: #6d6c6d;
+    font-size: 18px;
+    width: 500px;
+    margin-top: 30px;
+    line-height: 30px;
+    /* font-weight: bolder; */
+}
+
+.button-group2 {
+    margin-top: 50px;
+}
+
+.div-button {
+    background-color: #f4694c;
+    border: none;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    width: 170px;
+}
+
+.button-group2 button:first-child {
+    padding: 17px;
+}
+
+.blackbutton {
+    background-color: #090001;
+    border: 2px solid #fff;
+    margin-left: 30px;
+}
+
+.section2 .insideContainer>h1 {
+    color: #121212;
+    font-size: 40px;
+    width: 580px;
+    margin: auto;
+    margin-top: 120px;
+}
+
+.section2-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.div1 {
+    background: url("./Assets/Photos/image\ 2.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.section2card {
+    width: 22%;
+    height: 280px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section2card>img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.cardContent {
+    position: absolute;
+    /* margin-top: 220px; */
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #b1b3b3;
+    line-height: 20px;
+}
+
+.star {
+    display: flex;
+    margin-top: 10px;
+}
+
+.cardContent button {
+    background-color: #f4694c;
+    border: none;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    width: 120px;
+    margin-left: 20px;
+}
+
+.section3-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+/* .section3-div div {
+    height: 400px;
+    width: 40%;
+} */
+
+.section3Img {
+    background: url("./Assets/Photos/Rectangle\ 57.png") no-repeat;
+    background-size: 100% 100%;
+    height: 400px;
+    width: 40%;
+}
+
+.section3left {
+    height: 400px;
+    width: 40%;
+}
+
+.section3left h1 {
+    font-size: 42px;
+    width: 420px;
+    font-weight: bolder;
+}
+
+.section3left p {
+    color: #939393;
+    margin-top: 30px;
+}
+
+.section3-button {
+    margin-top: 30px;
+}
+
+.section3-button button:nth-child(2) {
+    background-color: #ffffff;
+    color: #f78f7a;
+    border: 1px solid #f89c89;
+    padding: 14px;
+}
+
+.section4-div1 {
+    margin-top: 50px;
+}
+
+.flexclass {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cardwidth {
+    width: 50%;
+}
+
+.section4-img1 {
+    background: url("./Assets/Photos/Rectangle\ 75.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.section4-img2 {
+    background: url("./Assets/Photos/Rectangle\ 76.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.section4-img3 {
+    background: url("./Assets/Photos/Rectangle\ 77.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.section4-img4 {
+    background: url("./Assets/Photos/Rectangle\ 78.png") no-repeat;
+    background-size: 100% 100%;
+}
+
+.section4-img1-size {
+    height: 195px;
+    width: 30%;
+}
+
+.section4-content {
+    margin-left: 50px;
+    width: 60%;
+}
+
+.section4-content h2 {
+    width: 230px;
+}
+
+
+.section4-content p {
+    width: 240px;
+}
+
+.redTxt {
+    color: #f78f7a;
+}
+
+.greyTxt {
+    color: #939393;
+}
+
+.mtop {
+    margin-top: 10px;
+}
+
+.section5 {
+    background-color: #000308;
+    margin-top: 50px;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+.section5-img1 {
+    height: 380px;
+    margin-top: 50px;
+    width: 400px;
+}
+
+
+.section5-img2 {
+    position: relative;
+    height: 300px;
+    width: 280px;
+    margin-left: 50px;
+    top: 100px;
+    z-index: 1;
+}
+
+
+.section5-img3 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    top: 100px;
+}
+
+.headWhite {
+    color: #ffffff;
+    margin-left: 500px;
+    width: 300px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.section5 p {
+    position: absolute;
+    width: 500px;
+    top: 250px;
+    left: 600px;
+}
+
+.section5-img4 {
+    position: absolute;
+    left: 550px;
+    top: 350px;
+}
+
+.section6-img1 {
+    position: relative;
+    width: 100%;
+    opacity: .5;
+}
+
+.section6{
+    background-color: #000308;
+    position: relative;
+}
+
+.section6 h1{
+    position: absolute;
+    top: 30px;
+}
+
+.section6 p{
+    position: absolute;
+    width: 300px;
+    top: 180px;
+    left: 650px;
+    text-align: center;
+}
+
+.section6 button{
+    position: absolute;
+    left: 710px;
+    top: 250px;
+}
+
+.section7{
+    background-color: #000308;
+}
+
+.section7Card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section7Card p:not(:first-child){
+    margin-top: 10px;
+}
+
+.des{
+    width:200px;
+    text-align: center;
+}
+
+.section7Card>div img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.section7Card div:not(:first-child) p:first-child{
+    color: #ffffff;
+}
