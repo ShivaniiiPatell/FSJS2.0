@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.mainContainer {
+    background-color: #0f0f10;
+}
+
+.btn {
+    background-color: #1e1e21;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    color: #a1a1a2;
+}
+
+.txtGrey {
+    color: #939597;
+}
+
+.txtWhite {
+    color: #ffffff;
+}
+
+.ptxt{
+    color: #adb0b2;
+}
+
+.whitetxt{
+    color:#f2f2f3;
+}
+.section1 {
+    display: flex;
+    padding-bottom: 100px;
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
+.section1Left img:first-child {
+    position: absolute;
+    margin-top: 50px;
+}
+
+.section1Left img:last-child {
+    height: 430px;
+    margin-left: 160px;
+    margin-top: -50px;
+    width: 200px;
+}
+
+.section1Right {
+    margin-left: 150px;
+}
+
+.navbar-container ul li {
+    display: inline-block;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-size: 13px;
+}
+
+/* .grow-list {
+    margin-left: 60px;
+} */
+
+.list-item {
+    margin-right: 40px;
+}
+
+.list-item button{
+    padding: 5px 15px;
+}
+
+.onEar{
+    margin-left: 50px;
+    height: 80px;
+}
+.section1Card h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: #f2f2f3;
+}
+
+.section1Card p:nth-child(2) {
+    color: #f2f2f3;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+.section1Card p:nth-child(3) {
+    width: 380px;
+    font-size: 15px;
+    color: #adb0b2;
+    margin-top: 10px;
+}
+
+.section1Card button {
+    padding: 10px 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+
+.section1Card button>span:nth-child(2) {
+    margin-left: 15px;
+}
+
+.section1Card button>span:last-child {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.section2{
+    padding-left: 25%;
+    padding-right: 20%;
+    padding-bottom: 100px;
+}
+
+.section2 img{
+    margin-right: 100px;
+}
+
+.section3{
+    margin-left: 30%;
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+.sectionCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.centerImgHead{
+    margin-left: 30%;
+}
+
+.headp {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.headp2{
+    font-size: 12px;
+    width: 120px;
+}
+
+.section3CardLeft div{
+    margin-top: 20px;
+}
+
+.section3CardLeft div:first-child{
+    margin-left: 30px;
+}
+
+.section3CardLeft div:last-child{
+    margin-left: 30px;
+}
+
+
+.section4{
+    margin-left: 30%;
+    width: 40%;
+    padding-bottom: 100px;
+}
+
+.section4CardRight p{
+    font-size: 15px;
+    width: 230px;
+}
+
+.section4CardRight button{
+    padding: 10px 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.section4CardRight button>span{
+    margin-left: 10px;
+}
+
+.section5{
+    width: 60%;
+    background-color: #181a1b;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+.section5Card{
+    padding: 20px 40px;
+}
+
+.section5CardLeft p:first-child{
+    font-size: 20px;
+    font-weight: 600;
+    width: 220px;
+}
+
+.section5CardLeft p:nth-child(2){
+    font-size: 13px;
+    margin-top: 15px;
+}
+.section5CardLeft button{
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
+.btnBlack
+{
+    background-color: #000000;
+}
+
+.section6{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 100px;
+}
+.section6>img{
+    margin-left: 20%;
+}
+.section6>div{
+    margin-top: 80px;
+}
+.section6Card{
+    position: relative;
+    background-color: #181a1b;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.section6Card>img
+{
+    height: 100px;
+    position: relative;
+    margin-top: -35px;
+    margin-left: 35px;
+}
+
+.section6CardInner button{
+    padding: 5px 5px;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 5rem;
+}
+
+.section7{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.section7 p:not(:first-child){
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.section7 input{
+    background-color: #181a1b;
+    border: none;
+    padding: 10px 30px;
+}
+
+.iconDiv{
+    margin-top: 25px;
+}
