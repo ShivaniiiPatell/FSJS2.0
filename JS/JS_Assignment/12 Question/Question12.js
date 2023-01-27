@@ -4,54 +4,42 @@
     - Write three JavaScript statement example which provide falsy value.
 */
 
-/ 3 Truthy values
-
+//3 Truthy values
 
 // 1>
-if (true){
-    console.log('1st Truthy value')
+if (true) {
+  console.log("1st Truthy value");
 }
 
 // 2>
-if ("abc"){
-    console.log('2nd Truthy value')
+if ("abc") {
+  console.log("2nd Truthy value");
 }
 
 // 3>
-if (43){
-    console.log('3rd Truthy value')
+if (43) {
+  console.log("3rd Truthy value");
 }
-
 
 // 3 Truthy values
 
-
 // 1>
-if (false){
-    consol  e.log('')
-}
-else
-{
-    console.log('1st Falsy value')
-
+if (false) {
+  console.log("");
+} else {
+  console.log("1st Falsy value");
 }
 
 // 2>
-if (0){
-    console.log('')
-}
-else
-{
-    console.log('2nd Falsy value')
-
+if (0) {
+  console.log("");
+} else {
+  console.log("2nd Falsy value");
 }
 
 // 3>
-if (""){
-    console.log('')
-}
-else
-{
-    console.log('3rd Falsy value')
-
+if ("") {
+  console.log("");
+} else {
+  console.log("3rd Falsy value");
 }
