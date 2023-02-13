@@ -1,7 +1,5 @@
 // Method 1 : Object Literal
 
-const { chownSync } = require("fs");
-
 const obj1 = {
   name: "shivani",
   age: "24",
